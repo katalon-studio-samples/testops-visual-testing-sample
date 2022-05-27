@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Verify if users can book an appointment sucessfully.
+Pre-condition: Users have already logged in
+
+Steps:
+- Fill in appoinment's information
+- Click on appointment's button
+
+Expected results:
+Appointment Confirmation page is displayed</description>
+   <name>TC2_Verify Successful Appointment_With TestOps Visual Testing</name>
+   <tag></tag>
+   <comment>Story: Book an appointment
+Given that the user has logged into their account
+And Appointment page is displayed
+When he fills in valid information in Appointment page
+Then he should be able to book a new appointment</comment>
+   <testCaseGuid>c880ce98-5804-476f-88e9-c34919fccc5d</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>e2dec500-1cc2-4ada-8aac-e73448eec660</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>7ea6e44e-ce39-405d-9d1d-3ab35a178d43</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>e05bec37-8dfc-4de2-978a-965e4f5538dd</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>58c15445-d45d-46e6-ac70-c7adbbd2cc87</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>eacdca82-eacc-4d25-b197-4c041b388673</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>531ffc7f-7d0a-4026-ab99-e2e68882bc87</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>eb415e4d-2c48-4c2d-b042-07a4d492a48b</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>findTestObject('Vision_Common/Facility_Combobox')</defaultValue>
+      <description></description>
+      <id>e2dec500-1cc2-4ada-8aac-e73448eec660</id>
+      <masked>false</masked>
+      <name>FacilityObject</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestObject('Vision_Common/Date_Input')</defaultValue>
+      <description></description>
+      <id>7ea6e44e-ce39-405d-9d1d-3ab35a178d43</id>
+      <masked>false</masked>
+      <name>DateObject</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestObject('Vision_Common/Comment_Input')</defaultValue>
+      <description></description>
+      <id>e05bec37-8dfc-4de2-978a-965e4f5538dd</id>
+      <masked>false</masked>
+      <name>CommentObject</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestObject('Vision_Common/Medicare_Choices')</defaultValue>
+      <description></description>
+      <id>58c15445-d45d-46e6-ac70-c7adbbd2cc87</id>
+      <masked>false</masked>
+      <name>MedicareChoicesObject</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestObject('Vision_Common/Make_Appointment_Dialog')</defaultValue>
+      <description></description>
+      <id>eacdca82-eacc-4d25-b197-4c041b388673</id>
+      <masked>false</masked>
+      <name>AppointmentDialogObject</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestObject('Vision_Common/Comment_Label')</defaultValue>
+      <description></description>
+      <id>531ffc7f-7d0a-4026-ab99-e2e68882bc87</id>
+      <masked>false</masked>
+      <name>CommentLabelObject</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestObject('Vision_Common/Make_Appointment_Label')</defaultValue>
+      <description></description>
+      <id>eb415e4d-2c48-4c2d-b042-07a4d492a48b</id>
+      <masked>false</masked>
+      <name>MakeAppointmentLabel</name>
+   </variable>
+</TestCaseEntity>
